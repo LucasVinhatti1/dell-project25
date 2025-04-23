@@ -52,7 +52,7 @@ public class StartupRushGUI extends JFrame {
             try {
                 qtd = Integer.parseInt(input);
             } catch (NumberFormatException e) {
-                JOptionPane.showMessageDialog(this, "Valor inválido. Digite 4,6 ou 8");
+                JOptionPane.showMessageDialog(this, "Valor inválido. Digite 4, 6 ou 8");
                 return;
             }
         } while (qtd < 4|| qtd > 8 || qtd % 2 != 0);
